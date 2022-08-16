@@ -40,9 +40,9 @@
         </div>
 
         <div class="container_time">
-          <span>Daily</span>
-          <span>Weekly</span>
-          <span>Monthly</span>
+          <span id="daily-text" class="daily">Daily</span>
+          <span id="weekly-text" class="weekly view">Weekly</span>
+          <span id="monthly-text" class="monthly">Monthly</span>
         </div>
       </div>
 
@@ -54,7 +54,7 @@
           <div class="header_groups header_work">
             <h2>Work</h2>
           </div>
-          <div class="section_groups section_work">
+          <div class="section_groups daily section_work">
             <p>
               5hrs
               <!-- daily -->
@@ -74,7 +74,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_work">
+          <div class="section_groups monthly section_work">
             <p>
               103hrs
               <!-- monthly -->
@@ -95,7 +95,7 @@
           <div class="header_groups header_play">
             <h2>Play</h2>
           </div>
-          <div class="section_groups section_play">
+          <div class="section_groups daily section_play">
             <p>
               1hr
               <!-- daily -->
@@ -115,7 +115,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_play">
+          <div class="section_groups monthly section_play">
             <p>
               23hrs
               <!-- monthly -->
@@ -136,7 +136,7 @@
           <div class="header_groups header_study">
             <h2>Study</h2>
           </div>
-          <div class="section_groups section_study">
+          <div class="section_groups daily section_study">
             <p>
               0hrs
               <!-- daily -->
@@ -156,7 +156,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_study">
+          <div class="section_groups monthly section_study">
             <p>
               13hrs
               <!-- monthly -->
@@ -177,7 +177,7 @@
           <div class="header_groups header_exercise">
             <h2>Exercise</h2>
           </div>
-          <div class="section_groups section_exercise">
+          <div class="section_groups daily section_exercise">
             <p>
               1hr
               <!-- daily -->
@@ -197,7 +197,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_exercise">
+          <div class="section_groups monthly section_exercise">
             <p>
               11hrs
               <!-- monthly -->
@@ -218,7 +218,7 @@
           <div class="header_groups header_social">
             <h2>Social</h2>
           </div>
-          <div class="section_groups section_social">
+          <div class="section_groups daily section_social">
             <p>
               1hr
               <span>
@@ -238,7 +238,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_social">
+          <div class="section_groups monthly section_social">
             <p>
               21hrs
               <span>
@@ -259,7 +259,7 @@
           <div class="header_groups header_selfCare">
             <h2>Self Care</h2>
           </div>
-          <div class="section_groups section_selfCare">
+          <div class="section_groups daily section_selfCare">
             <p>
               0hrs
               <span>
@@ -279,7 +279,7 @@
               </span>
             </p>
           </div>
-          <div class="section_groups section_selfCare">
+          <div class="section_groups monthly section_selfCare">
             <p>
               7hrs
               <span>
@@ -294,8 +294,10 @@
 
   </section>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    <p class="text-attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">David Mite</a>.
+    </p>
   </div>
   <script src="./main.js"></script>
 </body>
